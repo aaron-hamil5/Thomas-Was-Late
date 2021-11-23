@@ -1,2 +1,22 @@
-﻿  Main.cpp
+﻿  Engine.cpp
+C:\Users\aaron\Documents\GitHub\Thomas-Was-Late\Thomas Was Late\Thomas Was Late\Engine.cpp(9,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\aaron\Documents\GitHub\Thomas-Was-Late\Thomas Was Late\Thomas Was Late\Engine.cpp(10,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\aaron\Documents\GitHub\Thomas-Was-Late\Thomas Was Late\Thomas Was Late\Engine.cpp(13,52): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\aaron\Documents\GitHub\Thomas-Was-Late\Thomas Was Late\Thomas Was Late\Engine.cpp(13,38): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
   Thomas Was Late.vcxproj -> C:\Users\aaron\Documents\GitHub\Thomas-Was-Late\Thomas Was Late\Debug\Thomas Was Late.exe

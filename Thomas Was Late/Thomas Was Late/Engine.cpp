@@ -29,7 +29,7 @@ Engine::Engine()
 
 	#pragma region Creating Background
 	/*Linking the background image to a Texture, then linking the texture to the sprite*/
-	m_BackgroundTexture = TextureHolder::GetTexture("graphics/background.png");
+	m_BackgroundTexture = TextureHolder::GetTexture("Assets/graphics/background.png");
 	m_BackgroundSprite.setTexture(m_BackgroundTexture);
 	#pragma endregion
 
