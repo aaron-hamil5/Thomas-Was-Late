@@ -29,7 +29,7 @@ Engine::Engine()
 
 	#pragma region Creating Background
 	/*Linking the background image to a Texture, then linking the texture to the sprite*/
-	m_BackgroundTexture = TextureHolder::GetTexture("Assets/graphics/background.png");
+	m_BackgroundTexture.loadFromFile("assets/graphics/background.png");
 	m_BackgroundSprite.setTexture(m_BackgroundTexture);
 	#pragma endregion
 
@@ -49,34 +49,10 @@ void Engine::run()
 
 		/*Make time display as seconds*/
 		float dtAsSec = dt.asSeconds();
+
+		input();
+		update(dtAsSec);
+		draw();
 	}
 }
 
-void Engine::input()
-{
-	Event event;
-
-	while (m_Window.pollEvent(event)) {
-		if (event.type == Event::KeyPressed) {
-			/*Quit*/
-			if (Keyboard::isKeyPressed(Keyboard::Escape)) {
-				m_Window.close();
-			}
-
-			/*Start Game*/
-			if (Keyboard::isKeyPressed(Keyboard::Return)) {
-				m_isPlaying = true;
-			}
-
-			/*Switch Charater*/
-			if (Keyboard::isKeyPressed(Keyboard::Q)) {
-				m_Charater1 = !m_Charater1;
-			}
-
-			/*Change view*/
-			if (Keyboard::isKeyPressed(Keyboard::E)) {
-				m_SplitScreen = !m_SplitScreen;
-			}
-		}
-	}
-}
