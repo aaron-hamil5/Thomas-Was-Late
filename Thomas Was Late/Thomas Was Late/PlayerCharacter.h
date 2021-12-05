@@ -39,7 +39,7 @@ Vector2f m_Position;
 FloatRect m_Feet;
 FloatRect m_Head;
 FloatRect m_Right;
-FloatRect m_Life;
+FloatRect m_Left;
 
 //Creating reference to texture
 Texture m_Texture;

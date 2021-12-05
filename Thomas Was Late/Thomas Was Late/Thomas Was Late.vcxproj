@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PlayerCharacter.h" />
+    <Content Include="PlayerCharacture.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
