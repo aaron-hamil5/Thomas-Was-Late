@@ -1,0 +1,7 @@
+﻿  HUD.cpp
+C:\Users\aaron\Documents\thomas-was-late\thomas-was-late\HUD.cpp(30,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  thomas-was-late.vcxproj -> C:\Users\aaron\Documents\thomas-was-late\Debug\thomas-was-late.exe
